@@ -14,14 +14,17 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, re_path, include
 import jobs.views
+#from . import jobs.views
 from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', jobs.views.homepage, name='home'),
+    #path('jobs/<int:job_id>', jobs.views.detail, name='detail'),
+    re_path('^jobs/(?P<job_id>\d+)/$', jobs.views.detail, name="detail"),
 
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

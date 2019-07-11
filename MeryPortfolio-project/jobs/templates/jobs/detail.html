@@ -40,37 +40,14 @@
 
   <section class="jumbotron text-center">
     <img class="container">
-      <h1 class="jumbotron-heading">Maria Digbazova</h1>
-      <p class="lead text-muted">Hi, my name is Maria. I enjoy developing apps and features of different systems</p>
+      <h1 class="jumbotron-heading">Job Detail</h1>
+      <p class="lead text-muted">{{ job.summary }}</p>
+      <img src="{{ job.image.url }}" height="300">
       <p>
-        <a href="mailto:meryh@abv.bg" class="btn btn-primary my-2">Email Me</a>
+        <a href="{% url 'home' %}" class="btn btn-primary my-2">Back</a>
       </p>
-      <img src="{% static 'Maria_1_a.jpg' %}" height="300">
     </div>
   </section>
-
-  <div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row">
-      {% for job in jobs.all %}
-
-        <div class="col-md-4">
-          <a href="{% url 'detail' job.id %}">
-          <div class="card mb-4 shadow-sm">
-            <img class="card-img-top" src="{{ job.image.url }}" alt="Project image">
-            <div class="card-body">
-              <p class="card-text">{{ job.summary }}</p>
-            </div>
-          </div>
-          </a>
-        </div>
-
-      {% endfor %}
-      </div>
-
-    </div>
-  </div>
 
 </main>
 

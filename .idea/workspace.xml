@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="924fc453-9a6e-4ac6-80f5-ccfc03b0735f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/images/DaVinci_EventBus.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeryPortfolio-project/images/CascadeResultsConsumer.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeryPortfolio-project/images/DaVinci_EventBus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/jobs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/jobs/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/jobs/templates/jobs/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/jobs/templates/jobs/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/jobs/templates/jobs/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+            <state relative-caret-position="345">
+              <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -50,6 +51,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/jobs/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -58,6 +68,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>album.css</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,17 +84,17 @@
         <option value="$PROJECT_DIR$/MeryPortfolio-project/jobs/templates/jobs/mery.html.py" />
         <option value="$PROJECT_DIR$/MeryPortfolio-project/jobs/templates/jobs/mery.html" />
         <option value="$PROJECT_DIR$/MeryPortfolio-project/jobs/admin.py" />
-        <option value="$PROJECT_DIR$/MeryPortfolio-project/jobs/models.py" />
         <option value="$PROJECT_DIR$/MeryPortfolio-project/jobs/views.py" />
         <option value="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings.py" />
         <option value="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/urls.py" />
         <option value="$PROJECT_DIR$/MeryPortfolio-project/jobs/templates/jobs/home.html" />
+        <option value="$PROJECT_DIR$/MeryPortfolio-project/jobs/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1932" />
-    <option name="y" value="12" />
+    <option name="x" value="1922" />
+    <option name="y" value="22" />
     <option name="width" value="1900" />
     <option name="height" value="1088" />
   </component>
@@ -104,14 +119,34 @@
               <item name="MyPortfolioDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPortfolioDjango" type="462c0819:PsiDirectoryNode" />
               <item name="MeryPortfolio-project" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyPortfolioDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPortfolioDjango" type="462c0819:PsiDirectoryNode" />
               <item name="MeryPortfolio-project" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPortfolioDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPortfolioDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="MeryPortfolio-project" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPortfolioDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPortfolioDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="MeryPortfolio-project" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPortfolioDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPortfolioDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="MeryPortfolio-project" type="462c0819:PsiDirectoryNode" />
+              <item name="MeryPortfolio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,7 +157,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MeryPortfolio-project/images" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mariya.Digbazova\PycharmProjects\MyPortfolioDjango\MeryPortfolio-project\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,7 +191,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1930" y="10" width="1520" height="870" extended-state="0" />
+    <frame x="1922" y="18" width="1520" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
@@ -189,13 +230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/jobs/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/jobs/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -208,6 +242,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/jobs/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/jobs/templates/jobs/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -226,10 +267,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/jobs/templates/jobs/home.html">
+    <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/jobs/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state relative-caret-position="230">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>

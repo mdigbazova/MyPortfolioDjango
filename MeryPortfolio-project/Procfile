@@ -1,2 +1,2 @@
-release: python MeryPortfolio-project/manage.py migrate
+release: python manage.py migrate
 web: gunicorn jobs:app

@@ -15,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-2652">
               <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            <state>
+              <caret column="73" selection-start-column="73" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -55,6 +55,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>album.css</find>
+      <find>os.path</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,6 +102,12 @@
               <item name="MyPortfolioDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPortfolioDjango" type="462c0819:PsiDirectoryNode" />
               <item name="MeryPortfolio-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPortfolioDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPortfolioDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="MeryPortfolio-project" type="462c0819:PsiDirectoryNode" />
+              <item name="MeryPortfolio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,13 +260,6 @@
     <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -270,10 +270,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2652">
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state>
+          <caret column="73" selection-start-column="73" selection-end-column="73" />
         </state>
       </provider>
     </entry>

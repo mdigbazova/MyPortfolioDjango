@@ -1,2 +1,2 @@
-release: python meryportfolio-project.manage.py migrate
+release: python ./meryportfolio-project/manage.py migrate
 web: gunicorn meryportfolio.wsgi

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="924fc453-9a6e-4ac6-80f5-ccfc03b0735f" name="Default Changelist" comment="" />
+    <list default="true" id="924fc453-9a6e-4ac6-80f5-ccfc03b0735f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,20 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MeryPortfolio-project/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="82" selection-start-column="82" selection-end-column="82" />
+              <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -110,12 +106,6 @@
               <item name="MyPortfolioDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPortfolioDjango" type="462c0819:PsiDirectoryNode" />
               <item name="MeryPortfolio-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPortfolioDjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPortfolioDjango" type="462c0819:PsiDirectoryNode" />
-              <item name="MeryPortfolio-project" type="462c0819:PsiDirectoryNode" />
-              <item name="MeryPortfolio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,7 +285,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="82" selection-start-column="82" selection-end-column="82" />
+          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
         </state>
       </provider>
     </entry>

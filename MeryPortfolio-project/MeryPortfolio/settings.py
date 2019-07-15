@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'jobs',
-    'django_heroku',
 
 
 ]

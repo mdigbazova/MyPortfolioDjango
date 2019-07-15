@@ -1,2 +1,2 @@
 release: python MeryPortfolio-project//manage.py migrate
-web: gunicorn MeryPortfolio.wsgi --log-file
+web: gunicorn MeryPortfolio.wsgi 

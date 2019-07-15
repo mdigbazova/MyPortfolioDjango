@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'jobs',
+    'django_heroku',
 
 
 ]
@@ -130,3 +131,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())

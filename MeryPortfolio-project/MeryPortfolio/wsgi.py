@@ -11,11 +11,10 @@ import os
 
 
 from django.core.wsgi import get_wsgi_application
-from . import settings as settingsfile
 
 #('DJANGO_SETTINGS_MODULE', 'settings')
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settingsfile')
-#os.environ["DJANGO_SETTINGS_MODULE"] = "meryportfolio.settings"
+#os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MeryPortfolio.settings')
+os.environ['DJANGO_SETTINGS_MODULE'] = 'MeryPortfolio.settings'
 
 application = get_wsgi_application()
 

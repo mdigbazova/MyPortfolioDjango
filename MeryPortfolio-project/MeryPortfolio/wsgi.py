@@ -20,7 +20,7 @@ while "" in sys.path:
 
 #('DJANGO_SETTINGS_MODULE', 'settings')
 #os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MeryPortfolio.settings')
-
+print(sys.path)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'settings.py'
 
 application = get_wsgi_application()

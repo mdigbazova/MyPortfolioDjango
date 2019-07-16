@@ -21,8 +21,8 @@ while "" in sys.path:
 #('DJANGO_SETTINGS_MODULE', 'settings')
 #os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MeryPortfolio.settings')
 print(sys.path)
-os.listdir(path='.')
-os.scandir()
+print(os.listdir(path='.'))
+print(os.scandir())
 #os.environ['DJANGO_SETTINGS_MODULE'] = 'settings.py'
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings.py')
 

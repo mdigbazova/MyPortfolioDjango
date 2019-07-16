@@ -13,9 +13,14 @@ from django.core.wsgi import get_wsgi_application
 path = '/MyPortfolioDjango/MeryPortfolio-project/'
 if path not in sys.path:
     sys.path.append(path)
+while "." in sys.path:
+    sys.path.remove(".")
+while "" in sys.path:
+    sys.path.remove("")
 
 #('DJANGO_SETTINGS_MODULE', 'settings')
 #os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MeryPortfolio.settings')
+
 os.environ['DJANGO_SETTINGS_MODULE'] = 'MeryPortfolio.settings'
 
 application = get_wsgi_application()

@@ -2,6 +2,9 @@ from . import base
 import django_heroku
 
 # Other settings required only for live server
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'qnds&b(vyfz_tk2w!(oyq-&^!-8b_hw%i!*8ohfchj1ftw7a&m'
+
 ALLOWED_HOSTS = ['shielded-ocean-74848.herokuapp.com']
 
 DEBUG = False
@@ -16,6 +19,7 @@ DATABASES = {
         'PORT': '5432'
     }
 }
+
 
 
 # Configure Django App for Heroku.

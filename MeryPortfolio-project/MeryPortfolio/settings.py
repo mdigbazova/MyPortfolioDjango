@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-
+import django_heroku
 
 try:
     from . local_settings import *
@@ -19,7 +19,7 @@ except ImportError:
     pass
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-#BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Quick-start development settings - unsuitable for production
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'jobs',
+    'django_heroku',
 
 
 ]
@@ -79,22 +80,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'MeryPortfolio.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql', # 'django.db.backends.sqlite3'
-#         'NAME': 'd1kq5er2d310b9',
-#         'USER': 'rhpzbalsaqtahy',
-#         'PASSWORD':'2b6a00a5eca2db664e49c75a94efaf34ce3446cc59654e865975e98f74b1f6a0',
-#         'HOST': 'ec2-50-19-222-129.compute-1.amazonaws.com',
-#         'PORT': '5432'
-#     }
-# }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -132,13 +117,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-#
-# STATIC_URL = '/static/'
-# STATIC_ROOT = os.path.join(settings.BASE_DIR, 'static')
-#
-# MEDIA_URL = '/media/'
-# MEDIA_ROOT = settings.BASE_DIR
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR
 
 # Configure Django App for Heroku.
 #import django_heroku

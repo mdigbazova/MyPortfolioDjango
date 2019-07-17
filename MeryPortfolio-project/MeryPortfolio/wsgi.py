@@ -18,16 +18,13 @@ from django.core.wsgi import get_wsgi_application
 # while "" in sys.path:
 #     sys.path.remove("")
 
-#('DJANGO_SETTINGS_MODULE', 'settings')
-#os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MeryPortfolio.settings')
-print(sys.path)
-print(os.listdir(path='.'))
-print(os.scandir())
-os.environ['DJANGO_SETTINGS_MODULE'] = 'MeryPortfolio-project.MeryPortfolio.settings.py'
+
+# print(sys.path)
+# print(os.listdir(path='.'))
+# print(os.scandir())
+os.environ['DJANGO_SETTINGS_MODULE'] = 'MeryPortfolio-project//MeryPortfolio.settings'
 #os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings.py')
 
 application = get_wsgi_application()
 
-# from MeryPortfolio.wsgi import MeryPortfolioApplication
-# application = MeryPortfolioApplication(application)
 

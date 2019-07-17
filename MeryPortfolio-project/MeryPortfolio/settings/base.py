@@ -29,9 +29,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'qnds&b(vyfz_tk2w!(oyq-&^!-8b_hw%i!*8ohfchj1ftw7a&m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True #False
+#DEBUG = True #False
 
-ALLOWED_HOSTS = ['shielded-ocean-74848.herokuapp.com']
+# ALLOWED_HOSTS = ['shielded-ocean-74848.herokuapp.com']
 
 
 # Application definition
@@ -143,4 +143,4 @@ MEDIA_ROOT = BASE_DIR
 
 # Configure Django App for Heroku.
 #import django_heroku
-django_heroku.settings(locals())
+# django_heroku.settings(locals())

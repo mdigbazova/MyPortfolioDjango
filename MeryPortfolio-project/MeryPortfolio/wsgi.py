@@ -22,8 +22,8 @@ from django.core.wsgi import get_wsgi_application
 print(sys.path)
 print(os.listdir(path='.'))
 
-#os.environ['DJANGO_SETTINGS_MODULE'] = 'MeryPortfolio-project/MeryPortfolio/settings'
-os.environ['DJANGO_SETTINGS_MODULE'] = 'MeryPortfolio.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'MeryPortfolio-project.settings'
+#os.environ['DJANGO_SETTINGS_MODULE'] = 'MeryPortfolio.settings'
 #os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings.py')
 
 application = get_wsgi_application()

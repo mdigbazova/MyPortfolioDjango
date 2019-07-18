@@ -1,5 +1,4 @@
 import os
-from . import base
 
 try:
     from . local_settings import *
@@ -8,7 +7,7 @@ except ImportError:
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_DIR = os.path.abspath(os.path.join(BASE_DIR, os.pardir)) # as that file should reside in app dir
+BASE_DIR = os.path.abspath(os.path.join(BASE_DIR, os.pardir)) # as that file should reside in project dir
 
 # Other settings required only for local server like
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -17,7 +16,6 @@ SECRET_KEY = 'qnds&b(vyfz_tk2w!(oyq-&^!-8b_hw%i!*8ohfchj1ftw7a&m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['shielded-ocean-74848.herokuapp.com']
 ALLOWED_HOSTS = []
 
 # Application definition
@@ -30,7 +28,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'jobs',
-
 
 ]
 
@@ -71,7 +68,7 @@ WSGI_APPLICATION = 'MeryPortfolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql', # 'django.db.backends.sqlite3'
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfoliodb',
         'USER': 'postgres',
         'PASSWORD': 'SitePortfolio',
@@ -117,8 +114,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [
@@ -129,7 +124,3 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR
-
-# Configure Django App for Heroku.
-#import django_heroku
-# django_heroku.settings(locals())

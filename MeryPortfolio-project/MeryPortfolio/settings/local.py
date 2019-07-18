@@ -8,6 +8,7 @@ except ImportError:
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.abspath(os.path.join(BASE_DIR, os.pardir)) # as that file should reside in app dir
 
 # Other settings required only for local server like
 # SECURITY WARNING: keep the secret key used in production secret!

@@ -13,10 +13,11 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 import django_heroku
 
-try:
-    from . local_settings import *
-except ImportError:
-    pass
+# try:
+#     from . local_settings import *
+# except ImportError:
+#     pass
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -31,17 +32,6 @@ SECRET_KEY = 'qnds&b(vyfz_tk2w!(oyq-&^!-8b_hw%i!*8ohfchj1ftw7a&m'
 
 # Application definition
 
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-
-    'jobs',
-
-]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

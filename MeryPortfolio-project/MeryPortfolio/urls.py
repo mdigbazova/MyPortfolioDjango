@@ -17,15 +17,20 @@ from django.contrib import admin
 from django.urls import path, re_path, include
 from django.conf import settings
 from django.conf.urls.static import static
+import os
 
-from .. import jobs
+#BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#BASE_DIR = os.path.abspath(os.path.join(BASE_DIR, os.pardir))
+
+import jobs.views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', jobs.views.homepage, name='home'),
-    #path('jobs/<int:job_id>', jobs.views.detail, name='detail'),
     re_path('^jobs/(?P<job_id>\d+)/$', jobs.views.detail, name="detail"),
 
 ]
+
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

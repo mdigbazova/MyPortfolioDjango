@@ -1,5 +1,5 @@
 """
-WSGI config for MeryPortfolio project.
+WSGI config for meryportfolio project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 import os
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "MeryPortfolio.settings.production")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "meryportfolio.settings.production")
 
 
 application = get_wsgi_application()

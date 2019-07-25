@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="924fc453-9a6e-4ac6-80f5-ccfc03b0735f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyPortfolioDjango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myportfoliodjango.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/meryportfolio/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/meryportfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/meryportfolio/settings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/meryportfolio/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/meryportfolio/settings/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/meryportfolio/settings/production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/meryportfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/MeryPortfolio/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/meryportfolio/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/SelectBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/cancel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/collapse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/collapse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/collapse.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/inlines.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/urlify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/MeryPortfolio-project/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

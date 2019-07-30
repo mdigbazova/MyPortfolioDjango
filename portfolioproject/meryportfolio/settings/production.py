@@ -1,5 +1,6 @@
 from . import base
 import django_heroku
+import dj_database_url
 import os
 
 # try:
@@ -20,16 +21,32 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['shielded-ocean-74848.herokuapp.com']
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql', # 'django.db.backends.sqlite3'
-        'NAME': 'd1kq5er2d310b9',
-        'USER': 'rhpzbalsaqtahy',
-        'PASSWORD': '2b6a00a5eca2db664e49c75a94efaf34ce3446cc59654e865975e98f74b1f6a0',
-        'HOST': 'ec2-50-19-222-129.compute-1.amazonaws.com',
-        'PORT': '5432'
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql', # 'django.db.backends.sqlite3'
+#         'NAME': 'd1kq5er2d310b9',
+#         'USER': 'rhpzbalsaqtahy',
+#         'PASSWORD': '2b6a00a5eca2db664e49c75a94efaf34ce3446cc59654e865975e98f74b1f6a0',
+#         'HOST': 'ec2-50-19-222-129.compute-1.amazonaws.com',
+#         'PORT': '5432'
+#     }
+# }
+
+if os.environ.get('DATABASE_URL', ''):
+    DATABASES = {
+        'default': dj_database_url.config()
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'portfoliodb',
+            'USER': 'postgres',
+            'HOST': 'dokku-postgres-portfoliodb',
+            'PORT': '5432',
+            'PASSWORD': '7548cad27126b9124e0b37d52a37fec0',
+        }
+    }
 
 
 # Application definition
